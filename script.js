@@ -1,6 +1,6 @@
 //Selecting Carousel Slide and Imgs
 const carouselSlide = document.querySelector(".carousel-slide");
-const carouselImages = document.querySelector(".carousel-slide img");
+const carouselImages = document.querySelectorAll(".carousel-slide img");
 // Buttons Selction
 const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
@@ -12,7 +12,7 @@ carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
 
 // Buttons Listeners
 nextBtn.addEventListener("click",()=>{
-    carouselSlide.style.transition = "trasform 0.4s ease-in-out";
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
     counter++;
-    console.log(counter)
-})
+    console.log(counter);
+});
