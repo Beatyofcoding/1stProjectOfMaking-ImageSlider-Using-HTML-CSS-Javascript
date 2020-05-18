@@ -1,4 +1,5 @@
 *{
+    background: gray;
     /* background-color: rgba(248, 244, 244, 0.384); */
     padding: 8px;
     margin: 0px;
@@ -13,6 +14,6 @@
     width: 60%;
     margin: auto;
     /* overflow: hidden; */
-    border: 5px solid black;
+        /* border: 5px solid black; */
 
 }
