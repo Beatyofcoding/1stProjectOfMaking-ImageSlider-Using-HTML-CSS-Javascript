@@ -22,3 +22,8 @@ prevBtn.addEventListener("click",()=>{
     counter--;
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
 });
+
+// Adding Transition End to Loop back to original picture
+carouselSlide.addEventListener("transitionend", () => {
+    console.log("fired")
+})
