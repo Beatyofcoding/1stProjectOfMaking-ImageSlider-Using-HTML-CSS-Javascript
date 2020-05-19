@@ -25,5 +25,10 @@ prevBtn.addEventListener("click",()=>{
 
 // Adding Transition End to Loop back to original picture
 carouselSlide.addEventListener("transitionend", () => {
-    console.log("fired")
+    console.log(carouselImages[counter]);
+    if (carouselImages[counter].id === "lastClone"){
+        carouselSlide.style.transition = "none";
+        counter = carouselImages.length -2 ;
+        carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
+    }
 })
