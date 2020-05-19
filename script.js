@@ -25,10 +25,17 @@ prevBtn.addEventListener("click",()=>{
 
 // Adding Transition End to Loop back to original picture
 carouselSlide.addEventListener("transitionend", () => {
-    console.log(carouselImages[counter]);
+    // console.log(carouselImages[counter]);
+    //TransitionEnd for at LastClone
     if (carouselImages[counter].id === "lastClone"){
         carouselSlide.style.transition = "none";
         counter = carouselImages.length -2 ;
+        carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
+    }
+    //TransitionEnd for at FirstClone
+    if (carouselImages[counter].id === "firstClone"){
+        carouselSlide.style.transition = "none";
+        counter = carouselImages.length - counter ;
         carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
     }
 })
