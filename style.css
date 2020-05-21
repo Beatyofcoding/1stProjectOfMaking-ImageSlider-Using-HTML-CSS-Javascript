@@ -1,5 +1,10 @@
+body{
+
+    background-image: url(http://www.fondsecran.eu/a/get_photo/579568/1280/720);
+}
 *{
-    background: rgb(66, 64, 64);
+    background-size: cover;
+    /* background: rgb(66, 64, 64); */
     /* background-color: rgba(248, 244, 244, 0.384); */
     padding: 0px;
     margin: 0px;
@@ -22,26 +27,29 @@
                 position: absolute;
                 top: 50%;
                 z-index: 10;
-                left: 5%;
+                left: 20%;
                 font-size: 30px;
-                color: white;
-                opacity: 0.5;
+                color: orangered;
+                /* opacity: 0.5; */
                 cursor: pointer;
             }
             #nextBtn{
                 position: absolute;
                 top: 50%;
                 z-index: 10;
-                right: 5%;
+                right: 20%;
                 font-size: 30px;
-                color: white;
-                opacity: 0.5;
+                color: orangered;
+                /* opacity: 0.5; */
                 cursor: pointer;
             }
 #Signature{
+    color: orangered;
     position: absolute;
-    right :47%;
-    top: 90%;
+    right: 710px;
+    top: 600px;
+    font-size: 1.5.rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* /* background: aliceblue; */
     /* color: white; */
 }
