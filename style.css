@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
 }
 .carousel-container{
-    width: 60%;
+    width: 720px;
     margin: auto;
     /* position: relative; */
     overflow: hidden;
@@ -20,14 +20,14 @@ body{
 }
 .carousel-slide{
             display: flex;
-            width: 100%;
+            width: 1000px;
             height: 500px;
             }
             #prevBtn{
                 position: absolute;
-                top: 50%;
+                top: 400px;
                 z-index: 10;
-                left: 20%;
+                left: 300px;
                 font-size: 30px;
                 color: orangered;
                 /* opacity: 0.5; */
@@ -35,9 +35,9 @@ body{
             }
             #nextBtn{
                 position: absolute;
-                top: 50%;
+                top: 400px;
                 z-index: 10;
-                right: 20%;
+                right: 300px;
                 font-size: 30px;
                 color: orangered;
                 /* opacity: 0.5; */
