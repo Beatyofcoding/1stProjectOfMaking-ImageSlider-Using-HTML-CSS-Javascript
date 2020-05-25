@@ -1,6 +1,6 @@
 body{
 
-    background-image: url(http://www.fondsecran.eu/a/get_photo/579568/1280/720);
+    background-image: url(/img/579568_1280_720.jpg);
 }
 *{
     background-size: cover;
@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
 }
 .carousel-container{
-    width: 720px;
+    width: 850px;
     margin: auto;
     /* position: relative; */
     overflow: hidden;
